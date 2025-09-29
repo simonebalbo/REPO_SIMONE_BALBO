@@ -1,0 +1,58 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #0d6efd 0%, #003366 100%);
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+/* roba per le lezioni*/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ìtitoli */
+h1 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-weight: 400;
+  color: #6c757d; /* grigio bootstrap */
+}
+
+/* corpo */
+.appunti {
+  background: #f8f9fa; /* grigio chiaro */
+  border-left: 4px solid #0d6efd; /* linea blu a sinistra */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.appunti p {
+  margin-bottom: 1rem;
+}
+
+.appunti ul {
+  margin-bottom: 1rem;
+}
