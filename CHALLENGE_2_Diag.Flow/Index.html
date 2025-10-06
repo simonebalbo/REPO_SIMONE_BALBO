@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flow Field Generativo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+  </head>
+
+  <body>
+    <header class="hero">
+      <h1>Flow Field Generativo</h1>
+    </header>
+
+    <section class="content">
+      <div class="canvas-container">
+        <!-- Qui viene creato il canvas di p5.js -->
+      </div>
+
+      <div class="description">
+        <h2>Descrizione</h2>
+        <p>
+          Questo progetto genera un <strong>campo di flusso</strong> colorato,
+          basato sul <em>rumore Perlin</em>, che determina la direzione del
+          movimento di migliaia di punti. Ogni particella segue una traiettoria
+          fluida e lascia una scia, producendo forme organiche e imprevedibili.
+        </p>
+        <p>
+          Il risultato è un’immagine generativa che evolve nel tempo, frutto
+          dell’interazione tra casualità e regolarità matematica.
+        </p>
+        <p>
+            <label for="dens-slider">Densità punti:</label>
+            <input type="range" id="dens-slider" min="10" max="100" value="50">
+            <br>
+          
+            <label for="molt-slider">Moltiplicatore (molt):</label>
+            <input type="range" id="molt-slider" min="0.005" max="0.05" step="0.001" value="0.002">
+            <br>
+          
+            <label for="alpha-slider">Alpha:</label>
+            <input type="range" id="alpha-slider" min="1" max="50" value="4">
+            <br>
+          
+            <label for="r-slider">Rosso:</label>
+            <input type="range" id="r-slider" min="0" max="255" value="255">
+            <br>
+          
+            <label for="g-slider">Verde:</label>
+            <input type="range" id="g-slider" min="0" max="255" value="255">
+            <br>
+
+            <label for="b-slider">Blu:</label>
+            <input type="range" id="b-slider" min="0" max="255" value="255">
+    
+        </p>
+      </div>
+    </section>
+
+
+    <audio id="bg-audio" src="audio/tuo-file.mp3" autoplay loop></audio>
+
+
+   
+
+      
+
+
+
+
+    <script src="sketch.js"></script>
+  </body>
+</html>

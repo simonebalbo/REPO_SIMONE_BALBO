@@ -1,0 +1,95 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hero {
+  background: linear-gradient(135deg, #000, #111);
+  color: #fff;
+  padding: 40px 30px;
+  border-bottom: 1px solid #222;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: monospace;
+  font-size: 2.2em;
+}
+
+/* griglia */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px;
+  padding: 40px 30px;
+}
+
+/* cont canvas*/
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  height: 100%; 
+  margin-left: 30px;
+  margin-top: -300px;
+}
+
+
+canvas {
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: -350px;
+}
+
+
+
+
+.description h2 {
+  font-style: normal;
+  font-family: monospace;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px 30px 30px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .controls label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #0af;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+
+  
+
+
